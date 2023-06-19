@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import socketIOClient from "socket.io-client";
 import './App.css'
-const host = "http://localhost:3003";
+const host = "https://server-socket-uzws.onrender.com:3003";
 
 function App() {
   const [mess, setMess] = useState([]);
