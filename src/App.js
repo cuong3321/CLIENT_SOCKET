@@ -74,7 +74,7 @@ function App() {
             value={message}  
             onKeyDown={onEnterPress}
             onChange={handleChange} 
-            placeholder="Nhập tin nhắn ..." 
+            placeholder="Enter a message ..." 
           />
           <button onClick={sendMessage}>
             Send
